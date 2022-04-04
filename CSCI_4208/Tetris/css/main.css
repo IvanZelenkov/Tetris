@@ -1,0 +1,31 @@
+/******** Custom font ********/
+@font-face {
+  font-family: "TetrisFont";
+  src: url("../font/nasalization/nasalization-rg.otf");
+}
+
+body {
+  margin: 0;
+  background: url("../images/background.gif") no-repeat fixed;
+  background-size: cover;
+}
+
+#root {
+  padding: 3rem;
+  text-align: center;
+}
+
+#root h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  font-family: "TetrisFont", Consolas, monospace;
+  color: white;
+}
+
+#root canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  border: 3px solid white;
+}
+/*# sourceMappingURL=main.css.map */
